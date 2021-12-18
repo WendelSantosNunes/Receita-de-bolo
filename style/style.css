@@ -13,8 +13,9 @@
   box-sizing: border-box;
 }
 
+/* Main */
+
 .container {
-  /* background-color: var(--recipes-bg-color); */
   width: 70%;
   margin: 40px auto;
   padding: 30px;
