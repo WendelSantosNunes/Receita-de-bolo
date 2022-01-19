@@ -13,6 +13,10 @@
   box-sizing: border-box;
 }
 
+p {
+  justify-content: stretch;
+}
+
 /* Main */
 
 .container {
@@ -94,3 +98,53 @@ footer p {
 footer a {
   text-decoration: none;
 }
+
+@media (max-width: 515px) {
+  .container {
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .container main {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 365px) {
+  .container {
+    width: 95%;
+    border-radius: 10px;
+  }
+
+  h1,
+  h2,
+  figure {
+    text-align: center;
+    margin: 3px;
+  }
+}
+
+@media (max-width: 140px) {
+  .container {
+    max-width: 120px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .container main {
+    padding: 1px;
+  }
+
+  body h1 {
+    font-size: 1.05rem;
+  }
+
+  body h2 {
+    font-size: 0.7rem;
+  }
+
+  p {
+    font-size: 0.6rem;
+  }
+} ;
